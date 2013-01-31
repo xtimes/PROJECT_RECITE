@@ -1,8 +1,8 @@
 import java.io.*;
+import java.net.*;
 import java.awt.*;
 import com.sun.awt.*;
 import javax.swing.*;
-import java.net.*;
 import java.awt.event.*;
 
 
@@ -10,10 +10,9 @@ import java.awt.event.*;
 //设置窗口完全透明：AWTUtilities.setWindowOpaque(frame, false);   
 //设置窗口无边缘：frame.setUndecorated(true);   
 //设置窗口的ContentPane为要显示的Pane：frame.setContentPane(myPane);   
-//在myPane中放置具体要显示的内容，也可以重载paint方法进行Java2D绘制。这些paint会直接发生在桌面背景上。 
+//在myPane中放置具体要显示的内容,也可以重载paint方法进行Java2D绘制,这些paint会直接发生在桌面背景上; 
 
 @SuppressWarnings("serial")
-
 public class MainFrame extends javax.swing.JWindow
 {
 	public static void main(String[] args) 

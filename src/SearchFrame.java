@@ -1,6 +1,5 @@
 import javax.swing.*;
 import java.awt.event.*;
-
 import javax.swing.GroupLayout.Alignment;
 import javax.swing.LayoutStyle.ComponentPlacement;
 

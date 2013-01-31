@@ -27,7 +27,7 @@ public class JsonEntity
 			}
 			return s.toString();
 		} else 
-			return "<font color=red>no&nbsp;result;</font>";
+			return "<font color=red>have&nbsp;no&nbsp;result;</font>";
 	}
 	
 }
